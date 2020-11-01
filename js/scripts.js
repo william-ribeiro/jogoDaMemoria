@@ -12,11 +12,11 @@ let cards = [
 
 const divCards = document.getElementById("cards");
 
-let idNumeros = [];
+let numeros = [];
 let c = [];
 d = [];
 let pontuacao = document.getElementById("pontuacao");
-let pt = 0;
+let pt = 100;
 let idGeral = [];
 let valida = "";
 
@@ -31,16 +31,19 @@ function score(a, b) {
 
     if (t1 == t2) {
       d = [];
-      pt = pt + 10;
-      pontuacao.innerHTML = `Pontuação: ${pt}`;
     } else {
+      pt = pt - 10;
+      pontuacao.innerHTML = `Pontuação: ${pt}`;
       valida = "erro";
+      if (pt <= 0) {
+        alert("Você perdeu!");
+        showCards();
+      }
     }
   }
 }
 
 function getRandomInt() {
-  var numeros = [0];
   let cont = 0;
 
   for (let index = 0; index < 250; index++) {
@@ -51,31 +54,30 @@ function getRandomInt() {
     if (numeros.indexOf(aleatorio) == -1) {
       numeros.push(aleatorio);
       cont++;
-
-      //cards[cont].id = aleatorio;
     }
     if (cont == 17) {
       break;
     }
   }
-  idNumeros = numeros;
 }
 
 function clearCards() {
   divCards.innerHTML = "";
   getRandomInt();
-  pontuacao.innerHTML = `Pontuação: `;
+  pt = 100;
+  pontuacao.innerHTML = `Pontuação: ${pt} `;
   c = [];
   d = [];
-  pt = 0;
+  idGeral = [];
+  valida = "";
 }
 
 function showCards() {
   clearCards();
   pontuacao = document.getElementById("pontuacao");
-  for (let index = 1; index < 17; index++) {
+  for (let index = 0; index < 16; index++) {
     divCards.innerHTML += `<div 
-    id="${idNumeros[index]}" class="col-3">
+    id="${numeros[index]}" class="col-3">
     <img
       src="${cards[0].url}"
       class="img-fluid img-thumbnail"
