@@ -63,6 +63,7 @@ function getRandomInt() {
 
 function clearCards() {
   divCards.innerHTML = "";
+  numeros = [];
   getRandomInt();
   pt = 100;
   pontuacao.innerHTML = `Pontuação: ${pt} `;
