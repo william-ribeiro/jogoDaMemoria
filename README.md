@@ -1,6 +1,6 @@
 # Growdev
 
-![HTML](https://img.shields.io/badge/HTML-orange) ![CSS](https://img.shields.io/badge/CSS-blue) ![BOOT](https://img.shields.io/badge/BOOTSTRAP-purple) ![JS](https://img.shields.io/badge/JAVASCRIPT-yellow)  [![The MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=flat-square)](http://github.com/stilljag/jogoDaMemoria/blob/master/LICENSE.md)
+![HTML](https://img.shields.io/badge/HTML-orange) ![CSS](https://img.shields.io/badge/CSS-blue) ![BOOT](https://img.shields.io/badge/BOOTSTRAP-purple) ![JS](https://img.shields.io/badge/JAVASCRIPT-yellow)  [![The MIT License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=flat-square)](http://github.com/william-ribeiro/jogoDaMemoria/blob/master/LICENSE.md)
 
 
 ## Jogo da memória
@@ -22,7 +22,7 @@ Está versão foi desenvolvida apenas com os conhecimentos adquiridos até o mom
 
 ## Desenvolvimento
 
-![VERSION](https://img.shields.io/badge/VERSION.1.0-blue) ![GitHub language count](https://img.shields.io/github/languages/count/stilljag/jogoDaMemoria?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/stilljag/jogoDaMemoria?style=flat-square)
+![VERSION](https://img.shields.io/badge/VERSION.1.0-blue) ![GitHub language count](https://img.shields.io/github/languages/count/william-ribeiro/jogoDaMemoria?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/william-ribeiro/jogoDaMemoria?style=flat-square)
 #####   📍   Criação da versão 1.0
 #####  📘  Estudar o código e refatorar para criar versão 2.0
 ------------
@@ -31,7 +31,7 @@ Está versão foi desenvolvida apenas com os conhecimentos adquiridos até o mom
 
 ## Contribuição
 
-1. Faça o _fork_ do projeto (<https://github.com/stilljag/jogoDaMemoria/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/william-ribeirojogoDaMemoria/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
